@@ -64,7 +64,7 @@ main {
 }
 .button:hover {
   letter-spacing: 1px;
-  color: #ccffbd;
+  color: #7eca9c;
 }
 
 .navigation {
@@ -404,7 +404,7 @@ main {
   }
 }
 .contact .form-container input.button {
-  background: #7eca9c;
+  background: #fff;
   height: 55px;
   width: 126px;
   border-radius: 50px;
