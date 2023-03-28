@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const DynamicText = () => {
     useEffect(() => {
         const target = document.getElementById("text-target");
-        let array = ["simple", "clear", "strong", "smart"];
+        let array = ["photos", "dev", "motion", "com", "..."];
         let wordIndex = 0;
         let letterIndex = 0;
 
@@ -40,7 +40,7 @@ const DynamicText = () => {
     }, []);
     return (
         <span className="dynamic-text">
-            <span>simply</span>
+            <span>some:</span>
             <span id="text-target"></span>
         </span>
     );

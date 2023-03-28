@@ -23,7 +23,7 @@ const Navigation = () => {
                                 nav.isActive ? "nav-active hover" : "hover"
                             }
                         >
-                            <li>projet 1</li>
+                            <li>Photos</li>
                         </NavLink>
                         <NavLink
                             to="/projet-2"
@@ -31,7 +31,7 @@ const Navigation = () => {
                                 nav.isActive ? "nav-active hover" : "hover"
                             }
                         >
-                            <li>projet 2</li>
+                            <li>Musée de l'auto</li>
                         </NavLink>
                         <NavLink
                             to="/projet-3"
@@ -39,7 +39,7 @@ const Navigation = () => {
                                 nav.isActive ? "nav-active hover" : "hover"
                             }
                         >
-                            <li>projet 3</li>
+                            <li>Midjourney on rails</li>
                         </NavLink>
                         <NavLink
                             to="/projet-4"
@@ -47,7 +47,7 @@ const Navigation = () => {
                                 nav.isActive ? "nav-active hover" : "hover"
                             }
                         >
-                            <li>projet 4</li>
+                            <li>Motion</li>
                         </NavLink>
                     </ul>
                 </li>

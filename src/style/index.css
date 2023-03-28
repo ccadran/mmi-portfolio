@@ -16,12 +16,12 @@
   text-decoration: none;
 }
 *::-moz-selection {
-  color: #fafeff;
-  background: #00c1ec;
+  color: #1c1427;
+  background: #ccffbd;
 }
 *::selection {
-  color: #fafeff;
-  background: #00c1ec;
+  color: #1c1427;
+  background: #ccffbd;
 }
 
 html {
@@ -30,14 +30,14 @@ html {
 
 a,
 a:visited {
-  color: rgb(141, 141, 141);
+  color: #fff;
 }
 
 body {
   font-family: "font-1", sans-serif;
   height: 100vh;
-  background-color: #fafeff;
-  color: rgb(40, 40, 40);
+  background-color: #1c1427;
+  color: rgb(255, 255, 255);
   overflow: hidden;
 }
 @media screen and (max-width: 430px) {
@@ -53,7 +53,7 @@ main {
 }
 
 .button {
-  background: #e7f7fe;
+  background: #7eca9c;
   height: 55px;
   width: 126px;
   border-radius: 50px;
@@ -64,7 +64,7 @@ main {
 }
 .button:hover {
   letter-spacing: 1px;
-  color: #00c1ec;
+  color: #ccffbd;
 }
 
 .navigation {
@@ -73,7 +73,7 @@ main {
   left: 1.4rem;
   font-size: 1.4rem;
   line-height: 28px;
-  color: rgb(141, 141, 141);
+  color: #fff;
 }
 .navigation:before {
   content: "";
@@ -81,7 +81,7 @@ main {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  background: #e7f7fe;
+  background: #7eca9c;
   top: -150px;
   left: -160px;
   z-index: -1;
@@ -102,13 +102,13 @@ main {
   }
 }
 .navigation .nav-active {
-  color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
 }
 .navigation ul:hover li:not(:hover) {
   opacity: 0.5;
 }
 .navigation ul:hover li:hover {
-  color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
 }
 .navigation .nav-portfolio {
   cursor: pointer;
@@ -149,7 +149,7 @@ main {
   content: "";
   height: 800px;
   width: 800px;
-  background: #e7f7fe;
+  background: #7eca9c;
   border-radius: 50%;
   position: absolute;
   bottom: -480px;
@@ -209,7 +209,7 @@ main {
   height: 225px;
   width: 225px;
   border-radius: 50%;
-  border: 1px #00c1ec solid;
+  border: 1px #ccffbd solid;
   top: -40px;
   left: -180px;
   z-index: -1;
@@ -303,7 +303,7 @@ main {
   content: "";
   height: 700px;
   width: 700px;
-  background: #e7f7fe;
+  background: #7eca9c;
   border-radius: 50%;
   position: absolute;
   top: 150px;
@@ -364,7 +364,7 @@ main {
   content: "";
   height: 70px;
   width: 70px;
-  border: 1px #00c1ec solid;
+  border: 1px #ccffbd solid;
   border-radius: 50%;
   position: absolute;
   top: -22px;
@@ -379,7 +379,7 @@ main {
   background: none;
   font-family: "font-1", sans-serif;
   font-size: 1.2rem;
-  border-bottom: 1px solid #00c1ec;
+  border-bottom: 1px solid #ccffbd;
   border-radius: 5px;
 }
 @media screen and (min-width: 1200px) {
@@ -404,7 +404,7 @@ main {
   }
 }
 .contact .form-container input.button {
-  background: #e7f7fe;
+  background: #7eca9c;
   height: 55px;
   width: 126px;
   border-radius: 50px;
@@ -465,7 +465,7 @@ main {
   }
 }
 .contact-infos h4 {
-  color: rgb(141, 141, 141);
+  color: #fff;
   font-size: 1.3rem;
   font-weight: 200;
   margin-bottom: 10px;
@@ -584,7 +584,7 @@ main {
   content: "";
   height: 24px;
   width: 24px;
-  border: 1px #00c1ec solid;
+  border: 1px #ccffbd solid;
   border-radius: 50%;
   position: absolute;
   top: 1px;
@@ -601,7 +601,7 @@ main {
   content: "";
   height: 340px;
   width: 340px;
-  border: 1px solid #00c1ec;
+  border: 1px solid #ccffbd;
   border-radius: 50%;
   position: absolute;
   bottom: -200px;
@@ -696,7 +696,7 @@ main {
   font-size: 3rem;
   margin-bottom: 12px;
   font-family: "font-2", serif;
-  color: #00c1ec;
+  color: #fff;
   transform: scaleX(0);
   animation: transformTitle 1.5s ease forwards;
   transform-origin: 150%;
@@ -718,7 +718,7 @@ main {
 }
 .project .project-main .project-content p {
   margin-bottom: 30px;
-  color: rgb(141, 141, 141);
+  color: #fff;
   font-size: 1.2rem;
 }
 @media screen and (max-width: 700px) {
@@ -735,7 +735,7 @@ main {
   content: "";
   height: 340px;
   width: 340px;
-  background: #e7f7fe;
+  background: #7eca9c;
   border-radius: 50%;
   position: absolute;
   top: -28px;
@@ -836,7 +836,7 @@ main {
 }
 .project .project-main .img-content .img-container span h3 {
   padding-bottom: 10px;
-  color: rgb(2, 121, 148);
+  color: #ccffbd;
 }
 .project .button-container {
   width: 130px;
@@ -845,8 +845,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fafeff;
-  background: #00c1ec;
+  color: #1c1427;
+  background: #fff;
 }
 @media screen and (max-width: 410px) {
   .project .button-container a .button {
@@ -855,14 +855,14 @@ main {
   }
 }
 .project .button-container a .button:hover {
-  color: #00c1ec;
-  background: #e7f7fe;
+  color: #7eca9c;
+  background: #fff;
 }
 .project .random-circle {
   position: absolute;
   height: 400px;
   width: 400px;
-  background: #e7f7fe;
+  background: #7eca9c;
   border-radius: 50%;
   z-index: -1;
   animation: circleAnim 16s infinite alternate;
@@ -896,7 +896,7 @@ main {
   content: "";
   height: 500px;
   width: 500px;
-  background: #e7f7fe;
+  background: #7eca9c;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -916,7 +916,7 @@ main {
 .cursor {
   width: 62px;
   height: 62px;
-  border: 1px solid #00c1ec;
+  border: 1px solid #ccffbd;
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -948,13 +948,13 @@ main {
 }
 @keyframes color {
   0% {
-    color: blue;
+    color: #7eca9c;
   }
   50% {
-    color: #ec006e;
+    color: #ccffbd;
   }
   100% {
-    color: blue;
+    color: #7eca9c;
   }
 }
 .dynamic-text .letter {

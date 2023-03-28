@@ -1,40 +1,40 @@
 .dynamic-text {
-  position: relative;
-  display: flex;
-
-  #text-target {
+    position: relative;
     display: flex;
-    width: 300px;
-    text-align: left;
-    animation: color 30s alternate infinite;
-    perspective: 200px;
-    transform: translateX(26px);
-  }
-  .word {
-    position: absolute;
-  }
-  @keyframes color {
-    0% {
-      color: blue;
+
+    #text-target {
+        display: flex;
+        width: 300px;
+        text-align: left;
+        animation: color 30s alternate infinite;
+        perspective: 200px;
+        transform: translateX(26px);
     }
-    50% {
-      color: #ec006e;
+    .word {
+        position: absolute;
     }
-    100% {
-      color: blue;
+    @keyframes color {
+        0% {
+            color: #7eca9c;
+        }
+        50% {
+            color: #ccffbd;
+        }
+        100% {
+            color: #7eca9c;
+        }
     }
-  }
-  .letter {
-    transform: translateZ(200px);
-  }
-  @keyframes anim {
-    25% {
-      transform: translateZ(0px);
-      opacity: 1;
+    .letter {
+        transform: translateZ(200px);
     }
-    32% {
-      opacity: 0;
-      transform: translateZ(-280px) translateX(200px);
+    @keyframes anim {
+        25% {
+            transform: translateZ(0px);
+            opacity: 1;
+        }
+        32% {
+            opacity: 0;
+            transform: translateZ(-280px) translateX(200px);
+        }
     }
-  }
 }
